@@ -10,4 +10,17 @@ i {
   color: #dfbf59 !important;
 }
 
+.section-presentation {
+  background: center url("../images/image-presentation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-presentation .row {
+  height: 500px;
+}
+.section-presentation .text-rotate {
+  transform: rotate(-25deg);
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */

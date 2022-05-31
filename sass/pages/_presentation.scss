@@ -1,0 +1,12 @@
+.section-presentation{
+    background: center url("../images/image-presentation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    & .row{
+        height: 500px;
+    };
+    & .text-rotate{
+        transform: rotate(-25deg);
+        position: absolute;
+    };
+};
