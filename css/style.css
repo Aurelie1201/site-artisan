@@ -11169,4 +11169,13 @@ header {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
+.zone {
+  font-family: "Times New Roman", Times, serif;
+}
+@media screen and (min-width: 767.98px) {
+  .zone .icone-trajet {
+    width: 15% !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
