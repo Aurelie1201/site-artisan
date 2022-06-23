@@ -4,9 +4,23 @@
     background-repeat: no-repeat;
     & .row{
         height: 500px;
+        @media screen and (max-width: 767.98px){
+            height: 300px;
+        }
+        & .fs-md-3{
+            @media screen and (min-width: 767.98px){
+                font-size: calc(1.3rem + 0.6vw) !important;
+            }
+        }
+        & .marg-bottom{
+            background: $primarytransparent;
+            @media screen and (min-width: 767.98px){
+                margin-bottom: 265px !important;
+            }
+        }
     };
     & .text-rotate{
-        transform: rotate(-25deg);
-        position: absolute;
+        transform: rotate(-15deg);
     };
+    
 };
