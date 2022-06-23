@@ -11160,4 +11160,13 @@ header {
   font-family: "Times New Roman", Times, serif;
 }
 
+.experiences {
+  background: center url("../images/construction-maison.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.experiences .backtrans {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
 /*# sourceMappingURL=style.css.map */
