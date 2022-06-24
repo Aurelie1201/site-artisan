@@ -16,9 +16,12 @@
             }
             & .marg-bottom{
                 background: $primarytransparent;
-                @media screen and (min-width: 767.98px){
-                    margin-bottom: 265px !important;
-                }
+                // @media screen and (min-width: 767.98px) and (max-width: 927.97){
+                //     margin-bottom: 265px !important;
+                // };
+                // @media screen and (min-width: 927.98px){
+                //     margin-bottom: 295px !important;
+                // };
             }
         };
         & .text-rotate{

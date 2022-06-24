@@ -11148,11 +11148,6 @@ header {
 .section_presentation-image .row .marg-bottom {
   background: rgba(223, 191, 89, 0.25);
 }
-@media screen and (min-width: 767.98px) {
-  .section_presentation-image .row .marg-bottom {
-    margin-bottom: 265px !important;
-  }
-}
 .section_presentation-image .text-rotate {
   transform: rotate(-15deg);
 }
