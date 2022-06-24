@@ -5,3 +5,7 @@ $font-body: 'Times New Roman', Times, serif;
 .name{
     font-family: cursive, sans-serif;
 }
+
+body{
+    font-family: $font-body !important;
+}
