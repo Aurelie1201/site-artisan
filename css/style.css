@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif !important;
+  background-color: rgba(223, 191, 89, 0.25) !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 
 /*!
@@ -11126,16 +11127,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-header {
-  font-family: "Times New Roman", Times, serif;
-}
 header .navbar-toggler {
   color: #dfbf59 !important;
   border-color: #dfbf59 !important;
 }
 
 .section_presentation-image {
-  font-family: "Times New Roman", Times, serif;
   background: center url("../images/image-presentation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11159,10 +11156,6 @@ header .navbar-toggler {
 .section_presentation-image .text-rotate {
   transform: rotate(-15deg);
 }
-.section_presentation-text {
-  font-family: "Times New Roman", Times, serif;
-  background-color: rgba(223, 191, 89, 0.25);
-}
 
 .experiences {
   background: center url("../images/construction-maison.jpg");
@@ -11173,13 +11166,14 @@ header .navbar-toggler {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.zone {
-  font-family: "Times New Roman", Times, serif;
-}
 @media screen and (min-width: 767.98px) {
   .zone .icone-trajet {
     width: 15% !important;
   }
+}
+
+.carousel {
+  max-width: 640px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

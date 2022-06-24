@@ -35,16 +35,16 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
                     <ul class="navbar-nav justify-content-center">
                         <li class="nav-item px-4 px-md-5 text-center active">
-                            <a class="nav-link text-primary" href="#">Extérieur</a>
+                            <a class="nav-link text-primary" href="#presentation">Présentation</a>
                         </li>
                         <li class="nav-item px-4 px-md-5 text-center">
-                            <a class="nav-link text-primary" href="#">Rénovation</a>
+                            <a class="nav-link text-primary" href="#experience">Expérience</a>
                         </li>
                         <li class="nav-item px-4 px-md-5 text-center">
-                            <a class="nav-link text-primary" href="#">Finition</a>
+                            <a class="nav-link text-primary" href="#exemples">Photos</a>
                         </li>
                         <li class="nav-item px-4 px-md-5 text-center">
-                            <a class="nav-link text-primary" href="#">Contact</a>
+                            <a class="nav-link text-primary" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -54,7 +54,7 @@
     </header>
 
     <main>
-        <section class="section_presentation-image">
+        <section class="section_presentation-image" id="presentation">
             <div class="container-fluid">
                 <div class="row">
                     <div class="marg-bottom col-md-5  align-self-md-start m-auto mt-md-5 p-md-3 text-center text-uppercase fw-bold fs-2 fs-md-3 fst-italic">
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="experiences py-4">
+        <section class="experiences py-4" id="experience">
             <div class="m-auto w-75 pb-3 text-white backtrans">
                 <p class="p-3">Fort d’une expérience d'une trentaine d'année et d’un savoir-faire familial, votre professionnel de la maçonnerie vous propose ses compétences en matière de:</p>
                 <ul class="ms-sm-5 pe-2">
@@ -129,31 +129,7 @@
                 </ul>
             </div>
         </section>
-        <section class="zone">
-            <p class="text-center mx-3 pt-3">
-                Prestataire réactif et efficace, <span class="name">Antoine Ducreux</span> réalise tous vos chantiers en respectant les délais impartis.<br/><br/>
-                Votre maçon vous garantit la qualité de ses prestations et le sérieux de ses ouvrages.<br/><br/>
-                Pour toute demande de devis ou renseignements sur les travaux de maçonnerie, contactez votre artisan maçon <span class="name">Antoine Ducreux</span> à Autun.
-            </p>
-            <h3 class="text-center mt-4 fw-bold">Zone d'intervention</h3>
-            <p class="text-center mx-3 pt-3">Pour tous vos travaux, Antoine Ducreux se déplace sur les communes suivantes :</p>
-            <div class="py-sm-5 d-flex flex-column flex-sm-row align-items-center justify-content-sm-around bg-primary">
-                <ul class="mt-4">
-                    <li>Auxy</li>
-                    <li>La Celle en Morvan</li>
-                    <li>Curgy</li>
-                    <li>Epinac</li>
-                </ul>
-                <img src="images/destination.png" alt="icone trajet" class="w-25 icone-trajet"/>
-                <ul class="mt-4">
-                    <li>Etang sur Arroux</li>
-                    <li>Igornay</li>
-                    <li>Roussilon en Morvan</li>
-                    <li>Sully</li>
-                </ul>
-            </div>
-        </section>
-        <section class="exemples">
+        <section class="exemples d-flex flex-column align-items-center" id="exemples">
             <h3 class="text-center mt-4 fw-bold py-4">Quelques exemples de nos travaux</h3>
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -190,6 +166,31 @@
                 </button>
               </div>
         </section>
+        <section class="zone" id="contact">
+            <p class="text-center mx-3 pt-3">
+                Prestataire réactif et efficace, <span class="name">Antoine Ducreux</span> réalise tous vos chantiers en respectant les délais impartis.<br/><br/>
+                Votre maçon vous garantit la qualité de ses prestations et le sérieux de ses ouvrages.<br/><br/>
+                Pour toute demande de devis ou renseignements sur les travaux de maçonnerie, contactez votre artisan maçon <span class="name">Antoine Ducreux</span> à Autun.
+            </p>
+            <h3 class="text-center mt-4 fw-bold">Zone d'intervention</h3>
+            <p class="text-center mx-3 pt-3">Pour tous vos travaux, Antoine Ducreux se déplace sur les communes suivantes :</p>
+            <div class="py-sm-5 d-flex flex-column flex-sm-row align-items-center justify-content-sm-around bg-primary">
+                <ul class="mt-4">
+                    <li>Auxy</li>
+                    <li>La Celle en Morvan</li>
+                    <li>Curgy</li>
+                    <li>Epinac</li>
+                </ul>
+                <img src="images/destination.png" alt="icone trajet" class="w-25 icone-trajet"/>
+                <ul class="mt-4">
+                    <li>Etang sur Arroux</li>
+                    <li>Igornay</li>
+                    <li>Roussilon en Morvan</li>
+                    <li>Sully</li>
+                </ul>
+            </div>
+        </section>
+        
     </main>
 
     <!-- Bootstrap JS Bundle -->
