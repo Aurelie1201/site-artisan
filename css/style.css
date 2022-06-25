@@ -11178,8 +11178,34 @@ header .navbar-toggler {
   max-width: 640px !important;
 }
 
+.w-90 {
+  width: 90%;
+}
+
+@media screen and (min-width: 767.98px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+.input-group-text {
+  background-color: rgba(223, 191, 89, 0.25);
+}
+
 footer {
+  position: relative;
   width: 100%;
+}
+footer::after {
+  content: "";
+  background: url("../images/plan.jpg");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
