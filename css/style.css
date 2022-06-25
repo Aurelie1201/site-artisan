@@ -11158,6 +11158,8 @@ header .navbar-toggler {
 }
 
 .experiences {
+  max-width: 800px;
+  margin: auto;
   background: center url("../images/construction-maison.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -11174,6 +11176,10 @@ header .navbar-toggler {
 
 .carousel {
   max-width: 640px !important;
+}
+
+footer {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
